@@ -1,0 +1,21 @@
+# POST http://localhost:7071/api/FiapOrderApprovalOrchestrator_HttpStart
+POST https://fiaporderorchestration.azurewebsites.net/api/FiapOrderApprovalOrchestrator_HttpStart
+Content-Type: application/json
+
+{
+  "CustomerName": "João de Deus",
+  "DeliveryAddress": "Rua Exemplo, 123, São Paulo, SP",
+  "Items": [
+    {
+      "ProductName": "Produto 1",
+      "Quantity": 2,
+      "ProductValue": 50.00
+    },
+    {
+      "ProductName": "Produto 2",
+      "Quantity": 1,
+      "ProductValue": 150.00
+    }
+  ],
+  "TotalValue": 250.00
+}
