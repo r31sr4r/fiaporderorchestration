@@ -34,11 +34,13 @@ Para iniciar o processo de orquestração de pedidos, faça uma requisição POS
   ],
   "TotalValue": 100.00
 }
+```
 
 ## Estrutura do Projeto
 
 A estrutura de pastas e arquivos do projeto é organizada da seguinte maneira:
 
+```
 FIAP.Function/
 │
 ├── Models/                   # Pasta para modelos de dados
@@ -54,5 +56,6 @@ FIAP.Function/
 └── Starters/                 # Pasta para funções iniciadoras
     └── HttpStart.cs
 
+```
 
 Esta estrutura facilita a organização do código e melhora a manutenibilidade do projeto.
